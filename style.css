@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ /* Global styling */
+ * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+ 
+ img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+
+ button {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.90rem;
+    color: whitesmoke;
+    padding: 5px;
+    text-shadow: 2px 0px none ;
+    text-align: center;
+    cursor: pointer;
+ }
+ body {
+    color: #023e8a;
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 2px 0px none ;
+ }
+
+ html {
+    scroll-behavior: smooth;
+    overflow: auto;
+ }
+
+ /* Header styling */
+ ul {
+    list-style-type: none;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+ }
+
+li {
+   text-transform: capitalize;
+}
+
+ a {
+    color: inherit;
+    text-decoration: none;
+    color:#023e8a;
+    justify-content: space-evenly;
+    margin: 0px 20px;
+ }
+
+ .navbar-btn {
+    border: none;
+    border-radius: 30px;
+    background-color:rgba(0, 102, 255, 0.685);;
+    width: 140px;
+ }
+
+.main-btn {
+    border: none;
+    border-radius: 30px;
+    background-color:#06d6a0;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    left: 100px;
+    font-family: inherit;
+    margin: 50px 0px 0px 0px;
+    
+}
+
+ .header-h3 {
+    font-weight: 900;
+ }
+
+ a:hover {
+    border-bottom: 2px solid #023e8a;
+ }
+
+ header {
+    background-color: hsla(177, 77%, 88%, 0.363);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+ }
+
+ .header-icon {
+    display: flex;
+    text-align: center;
+    align-items: flex-end;
+    justify-content: space-between; 
+ }
+
+ /* Main content styling */
+ .web-content {
+    background-image: url("image/delivery\ man.png");
+    padding: 500px;
+   background-size: cover;
+   position: relative;
+ }
+
+ .content-section {
+    text-align: justify;
+    justify-content: center;
+    flex-direction: row;
+    position: absolute;
+    left: 100px;
+    margin-bottom: 100px;
+    top: 150px;
+ }
+
+ .heading-section {
+font-weight: 900;
+font-size: 60px;
+font-family: inherit;
+margin: 4px 0px;
+ }
+
+ h5 { 
+    font-family: inherit;
+    font-size: 40px;
+ }
+
+ p {
+    line-height: 30px;
+ }
+
+ .text2 {
+   margin-top: 20px;
+ }
+ .text {
+   margin-top: 10px;
+ }
